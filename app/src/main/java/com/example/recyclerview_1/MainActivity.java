@@ -45,4 +45,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return members;
     }
+
+    // RecyclerView uchun 3 ta narsa kerak bo'ladi. RecyclerView, List shaklidagi ma'lumotlar, adapter
 }

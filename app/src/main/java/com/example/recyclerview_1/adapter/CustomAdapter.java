@@ -18,8 +18,8 @@ import java.util.List;
 
 public class CustomAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    private Context context;
-    private List<Member> members;
+    public Context context;
+    public List<Member> members;
 
     public CustomAdapter(Context context, List<Member> members) {
         this.context = context;
@@ -60,6 +60,7 @@ public class CustomAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             super(v);
             view = v;
 
+            // Add your UI components here
             first_name = view.findViewById(R.id.tv_firstName);
             last_name = view.findViewById(R.id.tv_lastName);
         }
